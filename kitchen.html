@@ -130,7 +130,7 @@ body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--text);min-he
 </div>
 
 <div class="toast" id="kToast"></div>
-
+import { db, auth } from "../firebase/firebase-config.js";
 <script type="module">
 const API = window.location.hostname==='localhost'?'http://localhost:3001/api':'/api';
 
